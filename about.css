@@ -53,3 +53,30 @@ table,tr,th,td{
     border-collapse: collapse;
     padding: 9px;
 }
+/* For tablets */
+@media (max-width: 768px) {
+  .about {
+    grid-template-columns: 1fr; /* badala ya columns mbili */
+  }
+
+  .iname h2 {
+    font-size: 18px;
+  }
+
+  table, tr, th, td {
+    font-size: 14px;
+    padding: 6px;
+  }
+}
+
+/* For mobile phones */
+@media (max-width: 480px) {
+  .iname h2 {
+    font-size: 16px;
+  }
+
+  table, tr, th, td {
+    font-size: 12px;
+    padding: 4px;
+  }
+}

@@ -42,3 +42,45 @@ body{
     padding-top: 44px;
     height: 300px;
 }
+/* For tablets */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+
+  .nav ul {
+    padding: 0;
+    text-align: center;
+  }
+
+  .nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .header {
+    padding: 20px;
+    height: auto;
+  }
+
+  .header h2 {
+    font-size: 20px;
+  }
+}
+
+/* For mobile phones */
+@media (max-width: 480px) {
+  .name h1 {
+    font-size: 18px;
+  }
+
+  .header h2 {
+    font-size: 16px;
+  }
+
+  .header p {
+    font-size: 14px;
+  }
+}
